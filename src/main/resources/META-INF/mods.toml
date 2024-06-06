@@ -1,0 +1,50 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="kc_orespawn"
+version="1.0.0"
+displayName="KC Orespawn"
+displayURL="https://github.com/KienPC1234/KC-Orespawn"
+logoFile="logo.png"
+credits="Make By Anh Kien Modder MC"
+authors="Anh Kien Modder MC"
+description="Crazy MOD!!!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.kc_orespawn]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.kc_orespawn]]
+    modId="bettercombat"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.kc_orespawn]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.kc_orespawn]]
+    modId="playeranimator"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.kc_orespawn]]
+    modId="cloth-config"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

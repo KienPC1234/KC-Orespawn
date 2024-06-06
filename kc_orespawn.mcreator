@@ -1,0 +1,51 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Miscellaneous",
+            "children": []
+          },
+          {
+            "name": "Tools",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "kc_orespawn",
+    "modName": "KC Orespawn",
+    "version": "1.0.0",
+    "description": "Crazy MOD!!!",
+    "author": "Anh Kien Modder MC",
+    "websiteURL": "https://github.com/KienPC1234/KC-Orespawn",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "bettercombat",
+      "geckolib",
+      "playeranimator",
+      "cloth-config"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Make By Anh Kien Modder MC",
+    "modElementsPackage": "net.kiencoredev.kcorespawn"
+  },
+  "mcreatorVersion": 202400118518
+}
