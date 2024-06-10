@@ -1,10 +1,189 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "UltimateSwordToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_sword_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/procedures/UltimateSwordToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/UltimateSwordItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/ultimate_sword.json"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "Uraniumingot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kc_orespawn/models/item/uraniumingot.json",
+          "src/main/java/net/kiencoredev/kcorespawn/item/UraniumingotItem.java"
+        ]
+      },
+      "path": "~/Items/Miscellaneous"
+    },
+    {
+      "name": "ModTab",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Trextooth",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trextooth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/TrextoothItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/trextooth.json"
+        ]
+      },
+      "path": "~/Items/Miscellaneous"
+    },
+    {
+      "name": "Amethyst",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kc_orespawn/models/item/amethyst.json",
+          "src/main/java/net/kiencoredev/kcorespawn/item/AmethystItem.java"
+        ]
+      },
+      "path": "~/Items/Miscellaneous"
+    },
+    {
+      "name": "MothScale",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moth_scale",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kc_orespawn/models/item/moth_scale.json",
+          "src/main/java/net/kiencoredev/kcorespawn/item/MothScaleItem.java"
+        ]
+      },
+      "path": "~/Items/Miscellaneous"
+    },
+    {
+      "name": "NightmareScale",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_scale",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/NightmareScaleItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/nightmare_scale.json"
+        ]
+      },
+      "path": "~/Items/Miscellaneous"
+    },
+    {
+      "name": "CaterKillerJaw",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cater_killer_jaw",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/CaterKillerJawItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/cater_killer_jaw.json"
+        ]
+      },
+      "path": "~/Items/Miscellaneous"
+    },
+    {
+      "name": "VortexEye",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vortex_eye",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kc_orespawn/models/item/vortex_eye.json",
+          "src/main/java/net/kiencoredev/kcorespawn/item/VortexEyeItem.java"
+        ]
+      },
+      "path": "~/Items/Miscellaneous"
+    },
+    {
+      "name": "KrakenTooth",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kraken_tooth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/KrakenToothItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/kraken_tooth.json"
+        ]
+      },
+      "path": "~/Items/Miscellaneous"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.kc_orespawn.uraniumingot": "Uranium Ingot",
+      "item.kc_orespawn.trextooth": "T-Rex Tooth",
+      "item.kc_orespawn.cater_killer_jaw": "Cater Killer Jaw",
+      "item.kc_orespawn.ultimate_sword": "Ultimate Sword",
+      "item.kc_orespawn.amethyst": "Amethyst",
+      "item_group.kc_orespawn.mod_tab": "Mod Tab",
+      "item.kc_orespawn.moth_scale": "Moth Scale",
+      "item.kc_orespawn.vortex_eye": "Vortex Eye",
+      "item.kc_orespawn.kraken_tooth": "Kraken Tooth",
+      "item.kc_orespawn.nightmare_scale": "Nightmare Scale"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -18,9 +197,18 @@
           },
           {
             "name": "Tools",
-            "children": []
+            "children": [
+              {
+                "name": "Ultimate Tools",
+                "children": []
+              }
+            ]
           }
         ]
+      },
+      {
+        "name": "Misc",
+        "children": []
       }
     ]
   },

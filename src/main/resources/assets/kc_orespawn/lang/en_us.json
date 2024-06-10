@@ -1,1 +1,12 @@
-{}
+{
+  "item.kc_orespawn.uraniumingot": "Uranium Ingot",
+  "item.kc_orespawn.trextooth": "T-Rex Tooth",
+  "item.kc_orespawn.cater_killer_jaw": "Cater Killer Jaw",
+  "item.kc_orespawn.ultimate_sword": "Ultimate Sword",
+  "item.kc_orespawn.amethyst": "Amethyst",
+  "item_group.kc_orespawn.mod_tab": "Mod Tab",
+  "item.kc_orespawn.moth_scale": "Moth Scale",
+  "item.kc_orespawn.vortex_eye": "Vortex Eye",
+  "item.kc_orespawn.kraken_tooth": "Kraken Tooth",
+  "item.kc_orespawn.nightmare_scale": "Nightmare Scale"
+}
