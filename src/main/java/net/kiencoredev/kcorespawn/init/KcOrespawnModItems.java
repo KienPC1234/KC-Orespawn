@@ -14,6 +14,11 @@ import net.kiencoredev.kcorespawn.item.WoodFishItem;
 import net.kiencoredev.kcorespawn.item.VortexEyeItem;
 import net.kiencoredev.kcorespawn.item.UraniumingotItem;
 import net.kiencoredev.kcorespawn.item.UltimateSwordItem;
+import net.kiencoredev.kcorespawn.item.UltimateShovelItem;
+import net.kiencoredev.kcorespawn.item.UltimatePickaxeItem;
+import net.kiencoredev.kcorespawn.item.UltimateItem;
+import net.kiencoredev.kcorespawn.item.UltimateHoeItem;
+import net.kiencoredev.kcorespawn.item.UltimateHeavyAxeItem;
 import net.kiencoredev.kcorespawn.item.UltimateFishingRodItem;
 import net.kiencoredev.kcorespawn.item.UltimateBowItem;
 import net.kiencoredev.kcorespawn.item.TrextoothItem;
@@ -60,6 +65,14 @@ public class KcOrespawnModItems {
 	public static final RegistryObject<Item> FIRE_FISH = REGISTRY.register("fire_fish", () -> new FireFishItem());
 	public static final RegistryObject<Item> LAVA_EEL = REGISTRY.register("lava_eel", () -> new LavaEelItem());
 	public static final RegistryObject<Item> ULTIMATE_FISHING_ROD = REGISTRY.register("ultimate_fishing_rod", () -> new UltimateFishingRodItem());
+	public static final RegistryObject<Item> ULTIMATE_PICKAXE = REGISTRY.register("ultimate_pickaxe", () -> new UltimatePickaxeItem());
+	public static final RegistryObject<Item> ULTIMATE_HEAVY_AXE = REGISTRY.register("ultimate_heavy_axe", () -> new UltimateHeavyAxeItem());
+	public static final RegistryObject<Item> ULTIMATE_SHOVEL = REGISTRY.register("ultimate_shovel", () -> new UltimateShovelItem());
+	public static final RegistryObject<Item> ULTIMATE_HOE = REGISTRY.register("ultimate_hoe", () -> new UltimateHoeItem());
+	public static final RegistryObject<Item> ULTIMATE_HELMET = REGISTRY.register("ultimate_helmet", () -> new UltimateItem.Helmet());
+	public static final RegistryObject<Item> ULTIMATE_CHESTPLATE = REGISTRY.register("ultimate_chestplate", () -> new UltimateItem.Chestplate());
+	public static final RegistryObject<Item> ULTIMATE_LEGGINGS = REGISTRY.register("ultimate_leggings", () -> new UltimateItem.Leggings());
+	public static final RegistryObject<Item> ULTIMATE_BOOTS = REGISTRY.register("ultimate_boots", () -> new UltimateItem.Boots());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

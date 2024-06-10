@@ -1,0 +1,105 @@
+{
+  "_fv": 60,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "ultimate_helmet",
+    "enableBody": true,
+    "textureBody": "ultimate_chest",
+    "enableLeggings": true,
+    "textureLeggings": "ultimate_chest",
+    "enableBoots": true,
+    "textureBoots": "ultimate_boots",
+    "onHelmetTick": {
+      "name": "UltimateHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "UltimateHelmetTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "UltimateHelmetTickEvent"
+    },
+    "onBootsTick": {
+      "name": "UltimateHelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:ModTab"
+    },
+    "armorTextureFile": "ultimate_",
+    "helmetName": "Ultimate Helmet",
+    "bodyName": "Ultimate Chestplate",
+    "leggingsName": "Ultimate Leggings",
+    "bootsName": "Ultimate Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "helmetPiglinNeutral": {
+      "fixedValue": true
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": true
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": true
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": true
+    },
+    "maxDamage": 100,
+    "damageValueHelmet": 6,
+    "damageValueBody": 12,
+    "damageValueLeggings": 10,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 10.0,
+    "knockbackResistance": 5.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:TitaniumIngot"
+      },
+      {
+        "value": "CUSTOM:Uraniumingot"
+      }
+    ]
+  }
+}

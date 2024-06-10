@@ -41,5 +41,13 @@ public class KcOrespawnModTabs {
 				tabData.accept(KcOrespawnModItems.FIRE_FISH.get());
 				tabData.accept(KcOrespawnModItems.LAVA_EEL.get());
 				tabData.accept(KcOrespawnModItems.ULTIMATE_FISHING_ROD.get());
+				tabData.accept(KcOrespawnModItems.ULTIMATE_PICKAXE.get());
+				tabData.accept(KcOrespawnModItems.ULTIMATE_HEAVY_AXE.get());
+				tabData.accept(KcOrespawnModItems.ULTIMATE_SHOVEL.get());
+				tabData.accept(KcOrespawnModItems.ULTIMATE_HOE.get());
+				tabData.accept(KcOrespawnModItems.ULTIMATE_HELMET.get());
+				tabData.accept(KcOrespawnModItems.ULTIMATE_CHESTPLATE.get());
+				tabData.accept(KcOrespawnModItems.ULTIMATE_LEGGINGS.get());
+				tabData.accept(KcOrespawnModItems.ULTIMATE_BOOTS.get());
 			}).withSearchBar().build());
 }

@@ -41,7 +41,7 @@
     "enableRanged": true,
     "shootConstantly": true,
     "projectile": {
-      "value": "Arrow"
+      "value": "CUSTOM:UltimateArrow"
     },
     "isFood": false,
     "nutritionalValue": 4,

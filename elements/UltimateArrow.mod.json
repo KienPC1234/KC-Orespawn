@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Items.ARROW"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": true,
+    "power": 20.0,
+    "damage": 25.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsEntity": {
+      "name": "UltimateArrowProjectileHitsLivingEntity"
+    }
+  }
+}

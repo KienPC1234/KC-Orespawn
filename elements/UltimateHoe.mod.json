@@ -1,0 +1,46 @@
+{
+  "_fv": 60,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "ultimatepickaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Ultimate Hoe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:ModTab"
+    },
+    "harvestLevel": 4,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 38.0,
+    "usageCount": 40000,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Uraniumingot"
+      },
+      {
+        "value": "CUSTOM:TitaniumIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "UltimateHoeRightclickedOnBlock"
+    },
+    "onItemInInventoryTick": {
+      "name": "UltimatePickaxeToolInInventoryTick"
+    }
+  }
+}

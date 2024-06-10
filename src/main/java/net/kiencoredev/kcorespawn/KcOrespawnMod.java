@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.kiencoredev.kcorespawn.init.KcOrespawnModTabs;
 import net.kiencoredev.kcorespawn.init.KcOrespawnModItems;
+import net.kiencoredev.kcorespawn.init.KcOrespawnModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -41,6 +42,7 @@ public class KcOrespawnMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		KcOrespawnModItems.REGISTRY.register(bus);
+		KcOrespawnModEntities.REGISTRY.register(bus);
 
 		KcOrespawnModTabs.REGISTRY.register(bus);
 

@@ -542,6 +542,190 @@
         ]
       },
       "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimatePickaxeToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_pickaxe_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/procedures/UltimatePickaxeToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimatePickaxe",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/UltimatePickaxeItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/ultimate_pickaxe.json"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateHeavyAxe",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_heavy_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/UltimateHeavyAxeItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/ultimate_heavy_axe.json"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateShovel",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/UltimateShovelItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/ultimate_shovel.json"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateHoe",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kc_orespawn/models/item/ultimate_hoe.json",
+          "src/main/java/net/kiencoredev/kcorespawn/item/UltimateHoeItem.java"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateArrowProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_arrow_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/procedures/UltimateArrowProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateArrow",
+      "type": "projectile",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_arrow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/entity/UltimateArrowEntity.java"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/procedures/UltimateHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Armor/Ultimate"
+    },
+    {
+      "name": "Ultimate",
+      "type": "armor",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kc_orespawn/models/item/ultimate_boots.json",
+          "src/main/java/net/kiencoredev/kcorespawn/item/UltimateItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/ultimate_helmet.json",
+          "src/main/resources/assets/kc_orespawn/models/item/ultimate_chestplate.json",
+          "src/main/resources/assets/kc_orespawn/models/item/ultimate_leggings.json"
+        ]
+      },
+      "path": "~/Armor/Ultimate"
+    },
+    {
+      "name": "UltimateHoeRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_hoe_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/procedures/UltimateHoeRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
     }
   ],
   "variable_elements": [],
@@ -555,15 +739,20 @@
   },
   "language_map": {
     "en_us": {
+      "item.kc_orespawn.ultimate_shovel": "Ultimate Shovel",
       "item.kc_orespawn.grey_fish": "Grey Fish",
+      "item.kc_orespawn.ultimate_boots": "Ultimate Boots",
       "item.kc_orespawn.blue_fish": "Blue Fish",
       "item_group.kc_orespawn.mod_tab": "Mod Tab",
+      "item.kc_orespawn.ultimate_helmet": "Ultimate Helmet",
+      "item.kc_orespawn.ultimate_leggings": "Ultimate Leggings",
       "item.kc_orespawn.ultimate_sword": "Ultimate Sword",
       "item.kc_orespawn.lava_eel": "Lava Eel",
       "item.kc_orespawn.amethyst": "Amethyst",
       "item.kc_orespawn.wood_fish": "Wood Fish",
       "item.kc_orespawn.green_fish": "Green Fish",
       "item.kc_orespawn.vortex_eye": "Vortex Eye",
+      "item.kc_orespawn.ultimate_hoe": "Ultimate Hoe",
       "item.kc_orespawn.nightmare_scale": "Nightmare Scale",
       "item.kc_orespawn.rock_fish": "Rock Fish",
       "item.kc_orespawn.ultimate_bow": "Ultimate Bow",
@@ -571,10 +760,13 @@
       "item.kc_orespawn.ultimate_fishing_rod": "Ultimate Fishing Rod",
       "item.kc_orespawn.pink_fish": "Pink Fish",
       "item.kc_orespawn.titanium_ingot": "Titanium Ingot",
+      "item.kc_orespawn.ultimate_pickaxe": "Ultimate Pickaxe",
       "item.kc_orespawn.uraniumingot": "Uranium Ingot",
       "item.kc_orespawn.trextooth": "T-Rex Tooth",
       "item.kc_orespawn.cater_killer_jaw": "Cater Killer Jaw",
       "item.kc_orespawn.fire_fish": "Fire Fish",
+      "item.kc_orespawn.ultimate_chestplate": "Ultimate Chestplate",
+      "item.kc_orespawn.ultimate_heavy_axe": "Ultimate Axe",
       "item.kc_orespawn.moth_scale": "Moth Scale",
       "item.kc_orespawn.jumpy_bug_scale": "Jumpy Bug Scale",
       "item.kc_orespawn.sun_fish": "Sun Fish",
@@ -609,6 +801,15 @@
       {
         "name": "Misc",
         "children": []
+      },
+      {
+        "name": "Armor",
+        "children": [
+          {
+            "name": "Ultimate",
+            "children": []
+          }
+        ]
       }
     ]
   },
