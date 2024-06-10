@@ -2,24 +2,26 @@
   "_fv": 60,
   "_type": "tool",
   "definition": {
-    "toolType": "Sword",
+    "toolType": "Fishing rod",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "ultimatesword",
+    "texture": "ultimatefishingrod",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Ultimate Sword",
+    "name": "Ultimate Fishing Rod",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Keep Right Clicking To Get Fish!!!"
+      ]
     },
     "creativeTab": {
       "value": "CUSTOM:ModTab"
     },
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 1.6,
-    "enchantability": 2,
-    "damageVsEntity": 40.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 4.0,
     "usageCount": 100,
     "blocksAffected": [],
     "glowCondition": {
@@ -36,8 +38,11 @@
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "UltimateFishingRodRightclicked"
+    },
     "onItemInInventoryTick": {
-      "name": "UltimateSwordToolInInventoryTick"
+      "name": "UltimateFishingRodToolInInventoryTick"
     }
   }
 }

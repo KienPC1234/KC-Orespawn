@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "c b",
+    " db"
+  ],
+  "key": {
+    "a": {
+      "item": "kc_orespawn:titanium_ingot"
+    },
+    "b": {
+      "item": "minecraft:string"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "item": "kc_orespawn:uraniumingot"
+    }
+  },
+  "result": {
+    "item": "kc_orespawn:ultimate_bow",
+    "count": 1
+  }
+}

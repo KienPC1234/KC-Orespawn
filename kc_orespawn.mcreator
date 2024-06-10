@@ -166,23 +166,419 @@
         ]
       },
       "path": "~/Items/Miscellaneous"
+    },
+    {
+      "name": "JumpyBugScale",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpy_bug_scale",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/JumpyBugScaleItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/jumpy_bug_scale.json"
+        ]
+      },
+      "path": "~/Items/Miscellaneous"
+    },
+    {
+      "name": "TitaniumIngot",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kc_orespawn/models/item/titanium_ingot.json",
+          "src/main/java/net/kiencoredev/kcorespawn/item/TitaniumIngotItem.java"
+        ]
+      },
+      "path": "~/Items/Miscellaneous"
+    },
+    {
+      "name": "UltimateSwordRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kc_orespawn/recipes/ultimate_sword_recipe.json"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateBowItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_bow_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/procedures/UltimateBowItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateBow",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/UltimateBowItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/ultimate_bow.json"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateBowRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_bow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kc_orespawn/recipes/ultimate_bow_recipe.json"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "BlueFish",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_fish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/BlueFishItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/blue_fish.json"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "GreenFish",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_fish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/GreenFishItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/green_fish.json"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "GreyFish",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grey_fish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/GreyFishItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/grey_fish.json"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "PinkFish",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_fish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/PinkFishItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/pink_fish.json"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "RockFish",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock_fish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/RockFishItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/rock_fish.json"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "SharkFish",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shark_fish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/SharkFishItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/shark_fish.json"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "WoodFish",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_fish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/WoodFishItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/wood_fish.json"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "SunFishPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun_fish_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/procedures/SunFishPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "SunFish",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun_fish",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kc_orespawn/models/item/sun_fish.json",
+          "src/main/java/net/kiencoredev/kcorespawn/item/SunFishItem.java"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "FireFish",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_fish",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kc_orespawn/models/item/fire_fish.json",
+          "src/main/java/net/kiencoredev/kcorespawn/item/FireFishItem.java"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "FishingTable",
+      "type": "loottable",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishing_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kc_orespawn/loot_tables/gameplay/fishing.json"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "LavaEel",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_eel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/LavaEelItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/lava_eel.json"
+        ]
+      },
+      "path": "~/Items/Miscellaneous"
+    },
+    {
+      "name": "LavaFishingTable",
+      "type": "loottable",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_fishing_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kc_orespawn/loot_tables/gameplay/lava_fishing.json"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateFishingRodRightclicked",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_fishing_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/procedures/UltimateFishingRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateFishingRod",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_fishing_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kc_orespawn/models/item/ultimate_fishing_rod.json",
+          "src/main/java/net/kiencoredev/kcorespawn/item/UltimateFishingRodItem.java"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateFishingRodRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_fishing_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kc_orespawn/recipes/ultimate_fishing_rod_recipe.json"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateFishingRodToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_fishing_rod_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/procedures/UltimateFishingRodToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:forge:air": [
+      "Blocks.AIR",
+      "Blocks.VOID_AIR",
+      "Blocks.CAVE_AIR"
+    ]
+  },
   "language_map": {
     "en_us": {
+      "item.kc_orespawn.grey_fish": "Grey Fish",
+      "item.kc_orespawn.blue_fish": "Blue Fish",
+      "item_group.kc_orespawn.mod_tab": "Mod Tab",
+      "item.kc_orespawn.ultimate_sword": "Ultimate Sword",
+      "item.kc_orespawn.lava_eel": "Lava Eel",
+      "item.kc_orespawn.amethyst": "Amethyst",
+      "item.kc_orespawn.wood_fish": "Wood Fish",
+      "item.kc_orespawn.green_fish": "Green Fish",
+      "item.kc_orespawn.vortex_eye": "Vortex Eye",
+      "item.kc_orespawn.nightmare_scale": "Nightmare Scale",
+      "item.kc_orespawn.rock_fish": "Rock Fish",
+      "item.kc_orespawn.ultimate_bow": "Ultimate Bow",
+      "item.kc_orespawn.shark_fish": "Shark Fish",
+      "item.kc_orespawn.ultimate_fishing_rod": "Ultimate Fishing Rod",
+      "item.kc_orespawn.pink_fish": "Pink Fish",
+      "item.kc_orespawn.titanium_ingot": "Titanium Ingot",
       "item.kc_orespawn.uraniumingot": "Uranium Ingot",
       "item.kc_orespawn.trextooth": "T-Rex Tooth",
       "item.kc_orespawn.cater_killer_jaw": "Cater Killer Jaw",
-      "item.kc_orespawn.ultimate_sword": "Ultimate Sword",
-      "item.kc_orespawn.amethyst": "Amethyst",
-      "item_group.kc_orespawn.mod_tab": "Mod Tab",
+      "item.kc_orespawn.fire_fish": "Fire Fish",
       "item.kc_orespawn.moth_scale": "Moth Scale",
-      "item.kc_orespawn.vortex_eye": "Vortex Eye",
-      "item.kc_orespawn.kraken_tooth": "Kraken Tooth",
-      "item.kc_orespawn.nightmare_scale": "Nightmare Scale"
+      "item.kc_orespawn.jumpy_bug_scale": "Jumpy Bug Scale",
+      "item.kc_orespawn.sun_fish": "Sun Fish",
+      "item.kc_orespawn.kraken_tooth": "Kraken Tooth"
     }
   },
   "foldersRoot": {
@@ -203,6 +599,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Food",
+            "children": []
           }
         ]
       },

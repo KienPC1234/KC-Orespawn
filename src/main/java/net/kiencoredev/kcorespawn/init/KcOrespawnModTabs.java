@@ -27,5 +27,19 @@ public class KcOrespawnModTabs {
 				tabData.accept(KcOrespawnModItems.CATER_KILLER_JAW.get());
 				tabData.accept(KcOrespawnModItems.VORTEX_EYE.get());
 				tabData.accept(KcOrespawnModItems.KRAKEN_TOOTH.get());
+				tabData.accept(KcOrespawnModItems.JUMPY_BUG_SCALE.get());
+				tabData.accept(KcOrespawnModItems.TITANIUM_INGOT.get());
+				tabData.accept(KcOrespawnModItems.ULTIMATE_BOW.get());
+				tabData.accept(KcOrespawnModItems.BLUE_FISH.get());
+				tabData.accept(KcOrespawnModItems.GREEN_FISH.get());
+				tabData.accept(KcOrespawnModItems.GREY_FISH.get());
+				tabData.accept(KcOrespawnModItems.PINK_FISH.get());
+				tabData.accept(KcOrespawnModItems.ROCK_FISH.get());
+				tabData.accept(KcOrespawnModItems.SHARK_FISH.get());
+				tabData.accept(KcOrespawnModItems.WOOD_FISH.get());
+				tabData.accept(KcOrespawnModItems.SUN_FISH.get());
+				tabData.accept(KcOrespawnModItems.FIRE_FISH.get());
+				tabData.accept(KcOrespawnModItems.LAVA_EEL.get());
+				tabData.accept(KcOrespawnModItems.ULTIMATE_FISHING_ROD.get());
 			}).withSearchBar().build());
 }

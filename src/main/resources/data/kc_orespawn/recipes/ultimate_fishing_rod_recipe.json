@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " bc",
+    "d c"
+  ],
+  "key": {
+    "a": {
+      "item": "kc_orespawn:titanium_ingot"
+    },
+    "b": {
+      "item": "kc_orespawn:uraniumingot"
+    },
+    "c": {
+      "item": "minecraft:string"
+    },
+    "d": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "kc_orespawn:ultimate_fishing_rod",
+    "count": 1
+  }
+}

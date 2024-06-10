@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.Entity;
 
 import net.kiencoredev.kcorespawn.procedures.UltimateSwordToolInInventoryTickProcedure;
+import net.kiencoredev.kcorespawn.init.KcOrespawnModItems;
 
 public class UltimateSwordItem extends SwordItem {
 	public UltimateSwordItem() {
@@ -38,7 +39,7 @@ public class UltimateSwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(KcOrespawnModItems.TITANIUM_INGOT.get()), new ItemStack(KcOrespawnModItems.URANIUMINGOT.get()));
 			}
 		}, 3, -2.4f, new Item.Properties().fireResistant());
 	}
