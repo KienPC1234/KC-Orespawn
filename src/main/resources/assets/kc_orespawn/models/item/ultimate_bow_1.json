@@ -3,20 +3,6 @@
   "textures": {
     "layer0": "kc_orespawn:item/ultimatebow"
   },
-  "overrides": [
-    {
-      "predicate": {
-        "cooldown": 0
-      },
-      "model": "kc_orespawn:item/ultimate_bow_0"
-    },
-    {
-      "predicate": {
-        "cooldown": 0.01
-      },
-      "model": "kc_orespawn:item/ultimate_bow_1"
-    }
-  ],
   "display": {
     "thirdperson_righthand": {
       "rotation": [

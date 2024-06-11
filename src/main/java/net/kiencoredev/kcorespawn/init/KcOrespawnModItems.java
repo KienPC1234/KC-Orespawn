@@ -53,7 +53,6 @@ public class KcOrespawnModItems {
 	public static final RegistryObject<Item> KRAKEN_TOOTH = REGISTRY.register("kraken_tooth", () -> new KrakenToothItem());
 	public static final RegistryObject<Item> JUMPY_BUG_SCALE = REGISTRY.register("jumpy_bug_scale", () -> new JumpyBugScaleItem());
 	public static final RegistryObject<Item> TITANIUM_INGOT = REGISTRY.register("titanium_ingot", () -> new TitaniumIngotItem());
-	public static final RegistryObject<Item> ULTIMATE_BOW = REGISTRY.register("ultimate_bow", () -> new UltimateBowItem());
 	public static final RegistryObject<Item> BLUE_FISH = REGISTRY.register("blue_fish", () -> new BlueFishItem());
 	public static final RegistryObject<Item> GREEN_FISH = REGISTRY.register("green_fish", () -> new GreenFishItem());
 	public static final RegistryObject<Item> GREY_FISH = REGISTRY.register("grey_fish", () -> new GreyFishItem());
@@ -73,6 +72,7 @@ public class KcOrespawnModItems {
 	public static final RegistryObject<Item> ULTIMATE_CHESTPLATE = REGISTRY.register("ultimate_chestplate", () -> new UltimateItem.Chestplate());
 	public static final RegistryObject<Item> ULTIMATE_LEGGINGS = REGISTRY.register("ultimate_leggings", () -> new UltimateItem.Leggings());
 	public static final RegistryObject<Item> ULTIMATE_BOOTS = REGISTRY.register("ultimate_boots", () -> new UltimateItem.Boots());
+	public static final RegistryObject<Item> ULTIMATE_BOW = REGISTRY.register("ultimate_bow", () -> new UltimateBowItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

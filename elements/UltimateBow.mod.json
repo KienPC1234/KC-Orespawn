@@ -6,22 +6,55 @@
     "texture": "ultimatebow",
     "customModelName": "Ranged item",
     "customProperties": {},
-    "states": [],
+    "states": [
+      {
+        "renderType": 0,
+        "texture": "ll",
+        "customModelName": "Ranged item",
+        "stateMap": [
+          {
+            "property": {
+              "min": 0.0,
+              "max": 1.0,
+              "name": "cooldown",
+              "type": "number"
+            },
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "renderType": 0,
+        "texture": "ultimatebow",
+        "customModelName": "Ranged item",
+        "stateMap": [
+          {
+            "property": {
+              "min": 0.0,
+              "max": 1.0,
+              "name": "cooldown",
+              "type": "number"
+            },
+            "value": 0.01
+          }
+        ]
+      }
+    ],
     "name": "Ultimate Bow",
-    "rarity": "EPIC",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ModTab"
     },
     "stackSize": 1,
     "enchantability": 15,
-    "useDuration": 5,
+    "useDuration": 1,
     "toolType": 1.0,
     "damageCount": 40000,
     "recipeRemainder": {
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
@@ -35,13 +68,16 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onItemInInventoryTick": {
+    "onRightClickedInAir": {
+      "name": "UltimateBowRightclicked"
+    },
+    "onItemInUseTick": {
       "name": "UltimateBowItemInInventoryTick"
     },
-    "enableRanged": true,
-    "shootConstantly": true,
+    "enableRanged": false,
+    "shootConstantly": false,
     "projectile": {
-      "value": "CUSTOM:UltimateArrow"
+      "value": "Arrow"
     },
     "isFood": false,
     "nutritionalValue": 4,

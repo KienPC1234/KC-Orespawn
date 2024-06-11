@@ -54,12 +54,12 @@ public abstract class UltimateItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 10f;
+				return 5f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 5f;
+				return 0.5f;
 			}
 		}, type, properties);
 	}

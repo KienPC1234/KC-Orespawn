@@ -7,7 +7,7 @@
     "enableBody": true,
     "textureBody": "ultimate_chest",
     "enableLeggings": true,
-    "textureLeggings": "ultimate_chest",
+    "textureLeggings": "ultimate_leggings",
     "enableBoots": true,
     "textureBoots": "ultimate_boots",
     "onHelmetTick": {
@@ -88,8 +88,8 @@
     "damageValueLeggings": 10,
     "damageValueBoots": 2,
     "enchantability": 9,
-    "toughness": 10.0,
-    "knockbackResistance": 5.0,
+    "toughness": 5.0,
+    "knockbackResistance": 0.5,
     "equipSound": {
       "value": ""
     },

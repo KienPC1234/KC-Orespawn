@@ -16,7 +16,7 @@
             "item": {
               "value": "CUSTOM:FireFish"
             },
-            "weight": 1,
+            "weight": 2,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -30,7 +30,7 @@
             "item": {
               "value": "CUSTOM:SunFish"
             },
-            "weight": 1,
+            "weight": 2,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -44,11 +44,11 @@
             "item": {
               "value": "CUSTOM:SharkFish"
             },
-            "weight": 1,
+            "weight": 2,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 1,
             "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0

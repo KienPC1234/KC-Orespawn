@@ -29,7 +29,6 @@ public class KcOrespawnModTabs {
 				tabData.accept(KcOrespawnModItems.KRAKEN_TOOTH.get());
 				tabData.accept(KcOrespawnModItems.JUMPY_BUG_SCALE.get());
 				tabData.accept(KcOrespawnModItems.TITANIUM_INGOT.get());
-				tabData.accept(KcOrespawnModItems.ULTIMATE_BOW.get());
 				tabData.accept(KcOrespawnModItems.BLUE_FISH.get());
 				tabData.accept(KcOrespawnModItems.GREEN_FISH.get());
 				tabData.accept(KcOrespawnModItems.GREY_FISH.get());
@@ -49,5 +48,6 @@ public class KcOrespawnModTabs {
 				tabData.accept(KcOrespawnModItems.ULTIMATE_CHESTPLATE.get());
 				tabData.accept(KcOrespawnModItems.ULTIMATE_LEGGINGS.get());
 				tabData.accept(KcOrespawnModItems.ULTIMATE_BOOTS.get());
+				tabData.accept(KcOrespawnModItems.ULTIMATE_BOW.get());
 			}).withSearchBar().build());
 }

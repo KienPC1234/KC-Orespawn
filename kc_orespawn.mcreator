@@ -232,21 +232,6 @@
       "path": "~/Items/Tools/Ultimate Tools"
     },
     {
-      "name": "UltimateBow",
-      "type": "item",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ultimate_bow",
-      "metadata": {
-        "files": [
-          "src/main/java/net/kiencoredev/kcorespawn/item/UltimateBowItem.java",
-          "src/main/resources/assets/kc_orespawn/models/item/ultimate_bow.json"
-        ]
-      },
-      "path": "~/Items/Tools/Ultimate Tools"
-    },
-    {
       "name": "UltimateBowRecipe",
       "type": "recipe",
       "sortid": 18,
@@ -624,40 +609,6 @@
       "path": "~/Items/Tools/Ultimate Tools"
     },
     {
-      "name": "UltimateArrowProjectileHitsLivingEntity",
-      "type": "procedure",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ultimate_arrow_projectile_hits_living_entity",
-      "metadata": {
-        "files": [
-          "src/main/java/net/kiencoredev/kcorespawn/procedures/UltimateArrowProjectileHitsLivingEntityProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Items/Tools/Ultimate Tools"
-    },
-    {
-      "name": "UltimateArrow",
-      "type": "projectile",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ultimate_arrow",
-      "metadata": {
-        "files": [
-          "src/main/java/net/kiencoredev/kcorespawn/entity/UltimateArrowEntity.java"
-        ]
-      },
-      "path": "~/Items/Tools/Ultimate Tools"
-    },
-    {
       "name": "UltimateHelmetTickEvent",
       "type": "procedure",
       "sortid": 43,
@@ -726,15 +677,77 @@
         ]
       },
       "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateArrow",
+      "type": "code",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ultimate_arrow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/UltimateArrow.java"
+        ]
+      }
+    },
+    {
+      "name": "UltimateBowRightclicked",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_bow_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/procedures/UltimateBowRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateBow",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/item/UltimateBowItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/ultimate_bow.json",
+          "src/main/resources/assets/kc_orespawn/models/item/ultimate_bow_0.json",
+          "src/main/resources/assets/kc_orespawn/models/item/ultimate_bow_1.json"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Fishcheck",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "true"
+    }
+  ],
   "sound_elements": [],
   "tag_elements": {
-    "ITEMS:forge:air": [
-      "Blocks.AIR",
-      "Blocks.VOID_AIR",
-      "Blocks.CAVE_AIR"
+    "BLOCKS:forge:dirt": [
+      "Blocks.DIRT#0",
+      "Blocks.GRASS",
+      "Blocks.GRASS_PATH",
+      "Blocks.DIRT#2"
     ]
   },
   "language_map": {
@@ -743,8 +756,8 @@
       "item.kc_orespawn.grey_fish": "Grey Fish",
       "item.kc_orespawn.ultimate_boots": "Ultimate Boots",
       "item.kc_orespawn.blue_fish": "Blue Fish",
-      "item_group.kc_orespawn.mod_tab": "Mod Tab",
       "item.kc_orespawn.ultimate_helmet": "Ultimate Helmet",
+      "item_group.kc_orespawn.mod_tab": "Mod Tab",
       "item.kc_orespawn.ultimate_leggings": "Ultimate Leggings",
       "item.kc_orespawn.ultimate_sword": "Ultimate Sword",
       "item.kc_orespawn.lava_eel": "Lava Eel",
