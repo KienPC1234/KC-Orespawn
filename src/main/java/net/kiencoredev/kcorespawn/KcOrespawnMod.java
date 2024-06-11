@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.kiencoredev.kcorespawn.init.KcOrespawnModTabs;
 import net.kiencoredev.kcorespawn.init.KcOrespawnModItems;
+import net.kiencoredev.kcorespawn.init.KcOrespawnModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -39,6 +40,8 @@ public class KcOrespawnMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		KcOrespawnModBlocks.REGISTRY.register(bus);
 
 		KcOrespawnModItems.REGISTRY.register(bus);
 

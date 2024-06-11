@@ -1,0 +1,102 @@
+{
+  "_fv": 60,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "lavaeel_helmet",
+    "enableBody": true,
+    "textureBody": "lavaeel_chest",
+    "enableLeggings": true,
+    "textureLeggings": "lavaeel_leggings",
+    "enableBoots": true,
+    "textureBoots": "lavaeel_boots",
+    "onHelmetTick": {
+      "name": "LavaEelArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "LavaEelArmorHelmetTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "LavaEelArmorHelmetTickEvent"
+    },
+    "onBootsTick": {
+      "name": "LavaEelArmorHelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:ModTab"
+    },
+    "armorTextureFile": "lava_eel_",
+    "helmetName": "Lava Eel Armor Helmet",
+    "bodyName": "Lava Eel Armor Chestplate",
+    "leggingsName": "Lava Eel Armor Leggings",
+    "bootsName": "Lava Eel Armor Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 35,
+    "damageValueHelmet": 2,
+    "damageValueBody": 7,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 10,
+    "toughness": 2.5,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:LavaEel"
+      }
+    ]
+  }
+}

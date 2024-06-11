@@ -49,5 +49,10 @@ public class KcOrespawnModTabs {
 				tabData.accept(KcOrespawnModItems.ULTIMATE_LEGGINGS.get());
 				tabData.accept(KcOrespawnModItems.ULTIMATE_BOOTS.get());
 				tabData.accept(KcOrespawnModItems.ULTIMATE_BOW.get());
+				tabData.accept(KcOrespawnModItems.LAVA_EEL_ARMOR_HELMET.get());
+				tabData.accept(KcOrespawnModItems.LAVA_EEL_ARMOR_CHESTPLATE.get());
+				tabData.accept(KcOrespawnModItems.LAVA_EEL_ARMOR_LEGGINGS.get());
+				tabData.accept(KcOrespawnModItems.LAVA_EEL_ARMOR_BOOTS.get());
+				tabData.accept(KcOrespawnModBlocks.TITANIUM_BLOCK.get().asItem());
 			}).withSearchBar().build());
 }

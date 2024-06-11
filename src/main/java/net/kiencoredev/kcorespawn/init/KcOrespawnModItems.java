@@ -8,7 +8,9 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.kiencoredev.kcorespawn.item.WoodFishItem;
 import net.kiencoredev.kcorespawn.item.VortexEyeItem;
@@ -30,6 +32,7 @@ import net.kiencoredev.kcorespawn.item.PinkFishItem;
 import net.kiencoredev.kcorespawn.item.NightmareScaleItem;
 import net.kiencoredev.kcorespawn.item.MothScaleItem;
 import net.kiencoredev.kcorespawn.item.LavaEelItem;
+import net.kiencoredev.kcorespawn.item.LavaEelArmorItem;
 import net.kiencoredev.kcorespawn.item.KrakenToothItem;
 import net.kiencoredev.kcorespawn.item.JumpyBugScaleItem;
 import net.kiencoredev.kcorespawn.item.GreyFishItem;
@@ -73,6 +76,15 @@ public class KcOrespawnModItems {
 	public static final RegistryObject<Item> ULTIMATE_LEGGINGS = REGISTRY.register("ultimate_leggings", () -> new UltimateItem.Leggings());
 	public static final RegistryObject<Item> ULTIMATE_BOOTS = REGISTRY.register("ultimate_boots", () -> new UltimateItem.Boots());
 	public static final RegistryObject<Item> ULTIMATE_BOW = REGISTRY.register("ultimate_bow", () -> new UltimateBowItem());
+	public static final RegistryObject<Item> LAVA_EEL_ARMOR_HELMET = REGISTRY.register("lava_eel_armor_helmet", () -> new LavaEelArmorItem.Helmet());
+	public static final RegistryObject<Item> LAVA_EEL_ARMOR_CHESTPLATE = REGISTRY.register("lava_eel_armor_chestplate", () -> new LavaEelArmorItem.Chestplate());
+	public static final RegistryObject<Item> LAVA_EEL_ARMOR_LEGGINGS = REGISTRY.register("lava_eel_armor_leggings", () -> new LavaEelArmorItem.Leggings());
+	public static final RegistryObject<Item> LAVA_EEL_ARMOR_BOOTS = REGISTRY.register("lava_eel_armor_boots", () -> new LavaEelArmorItem.Boots());
+	public static final RegistryObject<Item> TITANIUM_BLOCK = block(KcOrespawnModBlocks.TITANIUM_BLOCK);
+
 	// Start of user code block custom items
 	// End of user code block custom items
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }

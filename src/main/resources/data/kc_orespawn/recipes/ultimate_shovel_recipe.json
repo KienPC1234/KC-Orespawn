@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "kc_orespawn:uraniumingot"
+    },
+    "b": {
+      "item": "kc_orespawn:titanium_ingot"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "kc_orespawn:ultimate_shovel",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "ac",
+    " c"
+  ],
+  "key": {
+    "a": {
+      "item": "kc_orespawn:titanium_ingot"
+    },
+    "b": {
+      "item": "kc_orespawn:uraniumingot"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "kc_orespawn:ultimate_heavy_axe",
+    "count": 1
+  }
+}

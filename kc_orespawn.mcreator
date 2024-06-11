@@ -679,19 +679,6 @@
       "path": "~/Items/Tools/Ultimate Tools"
     },
     {
-      "name": "UltimateArrow",
-      "type": "code",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "ultimate_arrow",
-      "metadata": {
-        "files": [
-          "src/main/java/net/kiencoredev/kcorespawn/UltimateArrow.java"
-        ]
-      }
-    },
-    {
       "name": "UltimateBowRightclicked",
       "type": "procedure",
       "sortid": 47,
@@ -710,6 +697,22 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -731,14 +734,140 @@
         ]
       },
       "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateHoeRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kc_orespawn/recipes/ultimate_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimatePickaxeRecipee",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_pickaxe_recipee",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kc_orespawn/recipes/ultimate_pickaxe_recipee.json"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateAxeRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kc_orespawn/recipes/ultimate_axe_recipe.json"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "UltimateShovelRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kc_orespawn/recipes/ultimate_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Items/Tools/Ultimate Tools"
+    },
+    {
+      "name": "LavaEelArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_eel_armor_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/kiencoredev/kcorespawn/procedures/LavaEelArmorHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Armor/LavaEel"
+    },
+    {
+      "name": "LavaEelArmor",
+      "type": "armor",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_eel_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kc_orespawn/models/item/lava_eel_armor_boots.json",
+          "src/main/java/net/kiencoredev/kcorespawn/item/LavaEelArmorItem.java",
+          "src/main/resources/assets/kc_orespawn/models/item/lava_eel_armor_helmet.json",
+          "src/main/resources/assets/kc_orespawn/models/item/lava_eel_armor_chestplate.json",
+          "src/main/resources/assets/kc_orespawn/models/item/lava_eel_armor_leggings.json"
+        ]
+      },
+      "path": "~/Armor/LavaEel"
+    },
+    {
+      "name": "TitaniumBlock",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kc_orespawn/models/item/titanium_block.json",
+          "src/main/resources/data/kc_orespawn/loot_tables/blocks/titanium_block.json",
+          "src/main/resources/assets/kc_orespawn/blockstates/titanium_block.json",
+          "src/main/java/net/kiencoredev/kcorespawn/block/TitaniumBlockBlock.java",
+          "src/main/resources/assets/kc_orespawn/models/block/titanium_block.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "TitaniumBlockRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kc_orespawn/recipes/titanium_block_recipe.json"
+        ]
+      },
+      "path": "~/Block"
     }
   ],
   "variable_elements": [
     {
-      "name": "Fishcheck",
-      "type": "logic",
+      "name": "fishingstate",
+      "type": "number",
       "scope": "player_lifetime",
-      "value": "true"
+      "value": "1.0"
     }
   ],
   "sound_elements": [],
@@ -759,6 +888,7 @@
       "item.kc_orespawn.ultimate_helmet": "Ultimate Helmet",
       "item_group.kc_orespawn.mod_tab": "Mod Tab",
       "item.kc_orespawn.ultimate_leggings": "Ultimate Leggings",
+      "block.kc_orespawn.titanium_block": "Titanium Block",
       "item.kc_orespawn.ultimate_sword": "Ultimate Sword",
       "item.kc_orespawn.lava_eel": "Lava Eel",
       "item.kc_orespawn.amethyst": "Amethyst",
@@ -767,22 +897,26 @@
       "item.kc_orespawn.vortex_eye": "Vortex Eye",
       "item.kc_orespawn.ultimate_hoe": "Ultimate Hoe",
       "item.kc_orespawn.nightmare_scale": "Nightmare Scale",
+      "item.kc_orespawn.lava_eel_armor_leggings": "Lava Eel Armor Leggings",
       "item.kc_orespawn.rock_fish": "Rock Fish",
       "item.kc_orespawn.ultimate_bow": "Ultimate Bow",
       "item.kc_orespawn.shark_fish": "Shark Fish",
       "item.kc_orespawn.ultimate_fishing_rod": "Ultimate Fishing Rod",
       "item.kc_orespawn.pink_fish": "Pink Fish",
       "item.kc_orespawn.titanium_ingot": "Titanium Ingot",
+      "item.kc_orespawn.lava_eel_armor_boots": "Lava Eel Armor Boots",
       "item.kc_orespawn.ultimate_pickaxe": "Ultimate Pickaxe",
       "item.kc_orespawn.uraniumingot": "Uranium Ingot",
       "item.kc_orespawn.trextooth": "T-Rex Tooth",
       "item.kc_orespawn.cater_killer_jaw": "Cater Killer Jaw",
+      "item.kc_orespawn.lava_eel_armor_helmet": "Lava Eel Armor Helmet",
       "item.kc_orespawn.fire_fish": "Fire Fish",
       "item.kc_orespawn.ultimate_chestplate": "Ultimate Chestplate",
       "item.kc_orespawn.ultimate_heavy_axe": "Ultimate Axe",
       "item.kc_orespawn.moth_scale": "Moth Scale",
       "item.kc_orespawn.jumpy_bug_scale": "Jumpy Bug Scale",
       "item.kc_orespawn.sun_fish": "Sun Fish",
+      "item.kc_orespawn.lava_eel_armor_chestplate": "Lava Eel Armor Chestplate",
       "item.kc_orespawn.kraken_tooth": "Kraken Tooth"
     }
   },
@@ -821,8 +955,20 @@
           {
             "name": "Ultimate",
             "children": []
+          },
+          {
+            "name": "LavaEel",
+            "children": []
           }
         ]
+      },
+      {
+        "name": "Block",
+        "children": []
+      },
+      {
+        "name": "Entity",
+        "children": []
       }
     ]
   },

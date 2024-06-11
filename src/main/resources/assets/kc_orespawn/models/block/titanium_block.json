@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kc_orespawn:block/blocktitanium",
+    "up": "kc_orespawn:block/blocktitanium",
+    "north": "kc_orespawn:block/blocktitanium",
+    "east": "kc_orespawn:block/blocktitanium",
+    "south": "kc_orespawn:block/blocktitanium",
+    "west": "kc_orespawn:block/blocktitanium",
+    "particle": "kc_orespawn:block/blocktitanium"
+  },
+  "render_type": "solid"
+}

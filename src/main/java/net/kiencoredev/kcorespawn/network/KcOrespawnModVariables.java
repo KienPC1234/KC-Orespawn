@@ -67,7 +67,7 @@ public class KcOrespawnModVariables {
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			if (!event.isWasDeath()) {
-				clone.Fishcheck = original.Fishcheck;
+				clone.fishingstate = original.fishingstate;
 			}
 		}
 	}
@@ -103,7 +103,7 @@ public class KcOrespawnModVariables {
 	}
 
 	public static class PlayerVariables {
-		public boolean Fishcheck = true;
+		public double fishingstate = 1.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -112,13 +112,13 @@ public class KcOrespawnModVariables {
 
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
-			nbt.putBoolean("Fishcheck", Fishcheck);
+			nbt.putDouble("fishingstate", fishingstate);
 			return nbt;
 		}
 
 		public void readNBT(Tag tag) {
 			CompoundTag nbt = (CompoundTag) tag;
-			Fishcheck = nbt.getBoolean("Fishcheck");
+			fishingstate = nbt.getDouble("fishingstate");
 		}
 	}
 
@@ -143,7 +143,7 @@ public class KcOrespawnModVariables {
 			context.enqueueWork(() -> {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
-					variables.Fishcheck = message.data.Fishcheck;
+					variables.fishingstate = message.data.fishingstate;
 				}
 			});
 			context.setPacketHandled(true);
